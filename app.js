@@ -15,7 +15,7 @@ const isAuth = require('./middleware/is-auth');
 const User = require('./models/user');
 
 const helmet = require('helmet');
-const helmet = require('compression');
+const compression = require('compression');
 
 const MONGODB_URI =
   `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0-l15df.mongodb.net/${process.env.MONGO_DEFAULT_DATABASE}`;
